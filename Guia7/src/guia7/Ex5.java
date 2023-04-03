@@ -19,7 +19,7 @@ public class Ex5 {
     public static void main(String[] args) {
         Empleado aumento= new Empleado();
         
-        System.out.println("el aumento del empleado es de: "+aumento.getSalario()+" por lo que su salario final seria de "+(aumento.calcular_aumento()+aumento.getSalario()));
+        System.out.println("el salario con aumento del empleado es de: "+aumento.calcular_aumento());
     }
     
 }

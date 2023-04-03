@@ -20,6 +20,11 @@ public class Ex6 {
         Rectangulo1 rectangulito= new Rectangulo1();
         rectangulito.calcular_area();
         
+        Rectangulo1 rect= new Rectangulo1();
+        rect.setLado1(4);
+        rect.setLado2(6);
+        
+        System.out.println("el area del segundo rectangulo es: "+ rect.getLado1()*rect.getLado2());
         
     }
     
