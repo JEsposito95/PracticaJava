@@ -1,0 +1,49 @@
+/*
+Declarar cuatro variables de tipo entero A, B, C y D y
+asignarle un valor diferente a cada una. 
+A continuación, realizar las instrucciones necesarias para que:
+B tome el valor de C
+, C tome el valor de A
+, A tome el valor de D 
+y D tome el valor de B.
+Mostrar los valores iniciales y los valores finales de cada variable. 
+Utilizar sólo una variable auxiliar.
+
+ */
+package clase4extra;
+
+/**
+ *
+ * @author Tecno
+ */
+public class ej2 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int A = 1;
+        int B = 2;
+        int C = 3;
+        int D = 4;
+        int Aux;
+        System.out.println("Lo Valor iniciales son=");
+        System.out.println("A= " +A);
+        System.out.println("B= " +B);
+        System.out.println("C= " +C);
+        System.out.println("D= " +D);
+        
+        Aux = B;
+        B=C;
+        C=A;
+        A=D;
+        D=Aux;
+        
+        System.out.println("Lo Valores finales son=");
+        System.out.println("A ahora es D " +A);
+        System.out.println("B ahora es C " +B);
+        System.out.println("C ahora es A " +C);
+        System.out.println("D ahora es B" +D);
+    }
+    
+}
