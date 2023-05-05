@@ -1,0 +1,32 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package guia9;
+
+import Entidades.ParDeNumeros;
+import Servicios.NumerosService;
+
+/**
+ *
+ * @author Joaquin
+ */
+public class ParDeNumerosMain {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        ParDeNumeros numeros= new ParDeNumeros();
+        NumerosService servicio= new NumerosService();
+        
+        servicio.mostrarValores(numeros);
+        servicio.devolverMayor(numeros);
+        servicio.calcularPotencia(numeros);
+        servicio.calcularRaiz(numeros);
+        
+        
+    }
+    
+}
