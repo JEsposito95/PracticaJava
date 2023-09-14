@@ -24,6 +24,7 @@ public class AlumnoService {
         
         
         do {
+            System.out.println("");
             System.out.println("Ingrese nombre del alumno: ");
             nombre= leer.next();
             System.out.println("Ingrese sus 3 notas: ");
